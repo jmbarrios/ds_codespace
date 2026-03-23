@@ -140,7 +140,7 @@ Los informes se generan en `reports/data_quality/` y proporcionan:
 
 ### Producción
 | Paquete | Versión | Uso |
-|---------|---------|-------|-----|
+|---------|-------|-----|
 | pandas | ≥2.0 | Manipulación de datos |
 | numpy | ≥1.24 | Operaciones numéricas |
 | scikit-learn | ≥1.3 | Machine learning |
