@@ -140,13 +140,14 @@ Los informes se generan en `reports/data_quality/` y proporcionan:
 
 ### Producción
 | Paquete | Versión | Uso |
-|---------|-------|-----|
-| pandas | ≥2.0 | Manipulación de datos |
-| numpy | ≥1.24 | Operaciones numéricas |
-| scikit-learn | ≥1.3 | Machine learning |
-| matplotlib | ≥3.7 | Visualización |
-| seaborn | ≥0.12 | Visualización estadística |
-| ydata-profiling | ≥4.0 | Informes de calidad |
+|---------|---------|-------|
+| pandas | ≥3.0 | Manipulación de datos |
+| numpy | ≥2.4 | Operaciones numéricas |
+| scikit-learn | ≥1.8 | Machine learning |
+| matplotlib | ≥3.10 | Visualización |
+| openpyxl | >= 3.1 | Manipulación archivos Excel xlsx |
+| xlrd | >=2.0 | Manipulación archivos Excel xls |
+| pyarrow | >= 23.0 | Manipulación archivos parquet |
 
 ### Desarrollo
 | Paquete | Versión | Uso |
@@ -154,7 +155,7 @@ Los informes se generan en `reports/data_quality/` y proporcionan:
 | pytest | ≥7.0 | Pruebas unitarias |
 | ruff | ≥0.1 | Linting y formateo |
 | mypy | ≥1.0 | Type checking |
-| pre-commit | ≥3.0 | Hooks de git |
+
 
 ## 🎨 Personalización
 
