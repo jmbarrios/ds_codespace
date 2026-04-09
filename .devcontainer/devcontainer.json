@@ -33,7 +33,7 @@
     },
 
 	// Create virtual environment and install dependencies
-    "postCreateCommand": "uv venv && uv pip install -e .[dev]",
+    "postCreateCommand": "uv venv && uv sync",
     
     // Set up environment for the virtual environment
     "remoteEnv": {
@@ -41,7 +41,7 @@
         "VIRTUAL_ENV": "${containerWorkspaceFolder}/.venv",
         "UV_SYSTEM_PYTHON": "0",
 		"UV_VENV_CLEAR": "1"
-    },
+    }
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
 }
